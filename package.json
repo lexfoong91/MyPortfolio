@@ -13,7 +13,6 @@
   "engines": {
     "node": "16.18.0"
   },
- 
   "dependencies": {
     "engine": "^1.0.0",
     "next": "^12.3.1",
