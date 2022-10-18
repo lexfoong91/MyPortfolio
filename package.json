@@ -8,20 +8,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "yarn run build && next export && mv out _static"
+    
   },
-  "engines":{
-    "node": "14.x"
-  },
+ 
   "dependencies": {
+    "engine": "^1.0.0",
     "next": "^12.3.1",
+    "node": "^18.11.0",
     "prism-theme-night-owl": "^1.4.0",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
     "react-bricks": "^3.6.1",
     "react-bricks-ui": "^0.5.2",
     "react-dom": "^18.2.0",
-    "react-slick": "^0.29.0"
+    "react-slick": "^0.29.0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@types/node": "^18.8.2",
